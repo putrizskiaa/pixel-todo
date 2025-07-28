@@ -1,0 +1,118 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+/* === Umum === */
+body {
+ margin: 0;
+ padding: 0;
+ font-family: 'VT323', monospace;
+ background:url('Calming\ pixel\ art\ landscape.jpeg')no-repeat;
+ color: #222;
+}
+
+h1 {
+ text-align: center;
+ font-size: 40px;
+ color: #000;
+ margin-top: 2cm;
+ font-family: 'VT323', monospace;
+}
+
+/* === Halaman Utama === */
+.main-screen {
+ background: url('Calming\ pixel\ art\ landscape.jpeg') no-repeat center center;
+ background-size: cover;
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.keyboard.gif {
+ width: 150px; /* Sesuaikan ukuran */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  image-rendering: pixelated; /* Agar tetap tajam di tampilan pixel */
+}
+.start-box {
+ margin-top: 40px;
+ padding: 10px;
+}
+
+.start-button {
+ font-size: 40px;
+ padding: 10px 20px;
+ background-color: #ff69b4;
+ color: #fff;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+.start-button:hover {
+ background-color: #ff90c2;
+}
+
+/* === Pomodoro Halaman === */
+.pomodoro-container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding: 20px;
+ background:url('Calming\ pixel\ art\ landscape.jpeg')no-repeat center center;
+ background-size: cover;
+ min-height: 100vh;
+}
+
+h2{
+font-size: 50px;
+}
+
+.timer {
+ font-size: 50px;
+ font-style: bold;
+ margin-bottom: 10px;
+}
+
+.buttons button {
+ font-size: 25px;
+ padding: 10px;
+ margin: 5px;
+ font-family: 'Press Start 2P', cursive;
+ border: none;
+ border-radius: 5px;
+ background-color: #ff69b4;
+ color: white;
+ cursor: pointer;
+}
+
+.cat-img {
+ width: 150px;
+ margin: 20px;
+}
+
+.todo-container {
+ margin-top: 30px;
+ width: 90%;
+ max-width: 400px;
+}
+
+.todo-container input {
+ width: 70%;
+ padding: 15px;
+ font-size: 20px;
+}
+
+.todo-container button {
+ padding: 8px;
+ font-size: 20px;
+ margin-left: 15px;
+}
+
+.todo-list li {
+ margin-top: 10px;
+ font-size: 30px;
+ list-style: none;
+ display: flex;
+ justify-content: space-between;
+}

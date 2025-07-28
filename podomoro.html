@@ -1,0 +1,32 @@
+<!-- pomodoro.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro & To-Do</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="pomodoro-container">
+
+  <h2>Pomodoro Timer</h2>
+  <div class="timer" id="timer">25:00</div>
+
+  <div class="buttons">
+    <button onclick="startTimer()">Start</button>
+    <button onclick="stopTimer()">Stop</button>
+    <button onclick="resetTimer()">Reset</button>
+  </div>
+
+  <img src="kucing.gif" alt="Cat" id="cat" class="cat-img">
+
+  <div class="todo-container">
+    <h3>To-Do List</h3>
+    <input type="text" id="taskInput" placeholder="Enter your task...">
+    <button onclick="addTask()">Add</button>
+    <ul id="taskList" class="todo-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
